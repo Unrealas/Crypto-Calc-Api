@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Crypto API</title>
+    <meta name="author" content="Julius Gurskis">
+    <meta name="description" content="HTML Pagrindai">
+    <meta name="keywords" content="HTML paskaita studijos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- iOS compatible -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="FrontEND">
+    <link rel="apple-touch-icon" href="img/unnamed.png">
+    <!-- Android compatible -->
+    <meta name="theme-color" content="#red">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="aplication-name" content="FrontEND">
+    <link rel="icon" href="img/unnamed.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Extended+Text" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<div class="inputs">
+    <input class="amount" type="number" placeholder="Crypto">
+    <select class="crypto">
+        <option value="Bitcoin">BTC</option>
+        <option value="Ethereum">ETH</option>
+        <option value="Ethereum-classic">ETC</option>
+        <option value="Ripple">XRP</option>
+        <option value="EOS">EOS</option>
+        <option value="Litecoin">LTC</option>
+    </select>
+    <div class="to">to</div>
+    <input class="amount" type="number" placeholder="FIAT">
+    <select class="currency">
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+    </select>
+
+    <button class="submit">Submit</button>
+
+</div>
+
+    <div class="result"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

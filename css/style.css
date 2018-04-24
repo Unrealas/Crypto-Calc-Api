@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: #a4a2a5;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+.result {
+    margin: 15px auto;
+    font-size: 35px;
+
+}
+
+.inputs {
+    margin: 25px auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.to {
+    font-size: 30px;
+}
+
+.crypto, .currency, .submit {
+    font-size: 30px;
+    margin: 0 5px;
+}
+.amount {
+    font-size: 26px;
+    width: 100px;
+}
+@media (max-width: 600px) {
+    .inputs{
+        width: 98%;
+    }
+    .to {
+        font-size: 14px;
+    }
+    .result{
+        font-size: 18px;
+    }
+    .amount{
+        width: 50px;
+    }
+    .crypto, .currency, .submit, .amount {
+        font-size: 16px;
+    }
+}
