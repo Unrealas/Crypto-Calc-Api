@@ -34,6 +34,11 @@ body {
     font-size: 26px;
     width: 100px;
 }
+.fiat {
+    font-size: 26px;
+    width: 100px;
+    margin: 0 5px;
+}
 @media (max-width: 600px) {
     .inputs{
         width: 98%;
@@ -47,7 +52,10 @@ body {
     .amount{
         width: 50px;
     }
-    .crypto, .currency, .submit, .amount {
+    .fiat{
+        width: 100px;
+    }
+    .crypto, .currency, .submit, .amount, .fiat{
         font-size: 16px;
     }
 }
